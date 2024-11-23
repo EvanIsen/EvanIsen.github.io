@@ -381,7 +381,6 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #f4f4f4;
-  display: flex;
 }
 
 .section-title h2::before {
