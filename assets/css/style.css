@@ -11,6 +11,7 @@
 --------------------------------------------------------------*/
 .container {
   display : block;
+  align-content: center;
   margin-right: 320px;
   width : 100%;
 }
