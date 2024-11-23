@@ -493,7 +493,6 @@ section {
   margin: 10px 0; /* Espacement entre chaque élément */
   padding: 8px;
   border-left: 3px solid #0056b3; /* Bordure pour indiquer une hiérarchie */
-  background-color: #ffffff; /* Fond clair pour le contraste */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre douce */
   border-radius: 5px; /* Coins arrondis */
 }
