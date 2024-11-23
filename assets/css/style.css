@@ -483,37 +483,19 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+/* Listes */
+.skills ul {
+  list-style-type: none; /* Enlever les puces */
+  padding: 0;
 }
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
+.skills li {
+  margin: 10px 0; /* Espacement entre chaque élément */
+  padding: 8px;
+  border-left: 3px solid #0056b3; /* Bordure pour indiquer une hiérarchie */
+  background-color: #ffffff; /* Fond clair pour le contraste */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  border-radius: 5px; /* Coins arrondis */
 }
 
 .skillbig {
