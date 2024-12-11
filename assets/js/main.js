@@ -222,10 +222,10 @@
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: true
-    },
+    // autoplay: {
+    //   delay: 5000,
+    //   disableOnInteraction: true
+    // },
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
